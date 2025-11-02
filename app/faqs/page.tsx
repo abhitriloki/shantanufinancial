@@ -24,19 +24,19 @@ export default function FAQsPage() {
     },
     {
       question: 'How do I get started with financial planning?',
-      answer: 'Getting started is easy! Simply book a free initial consultation through our website, WhatsApp, or phone. During this meeting, we'll discuss your financial goals, current situation, and how we can help. There's no obligation, and we'll provide clear next steps based on your needs.',
+      answer: 'Getting started is easy! Simply book a free initial consultation through our website, WhatsApp, or phone. During this meeting, we will discuss your financial goals, current situation, and how we can help. There is no obligation, and we will provide clear next steps based on your needs.',
     },
     {
       question: 'What documents do I need to bring for the first meeting?',
-      answer: 'For the initial consultation, bring any existing investment statements, insurance policies, tax returns, details of assets and liabilities, and information about your financial goals. Don't worry if you don't have everything - we can work with what you have and gather additional information over time.',
+      answer: 'For the initial consultation, bring any existing investment statements, insurance policies, tax returns, details of assets and liabilities, and information about your financial goals. Do not worry if you do not have everything - we can work with what you have and gather additional information over time.',
     },
     {
       question: 'Do you work with clients outside Gorakhpur?',
-      answer: 'Yes! While we're based in Gorakhpur, we serve clients across India. We offer virtual consultations via video calls, making it convenient to work with us regardless of your location. We also provide NRI advisory services for clients living abroad.',
+      answer: 'Yes! While we are based in Gorakhpur, we serve clients across India. We offer virtual consultations via video calls, making it convenient to work with us regardless of your location. We also provide NRI advisory services for clients living abroad.',
     },
     {
       question: 'What is goal-based financial planning?',
-      answer: 'Goal-based planning means creating a customized financial strategy aligned with your specific life goals - whether it's buying a home, funding children's education, planning retirement, or building wealth. We quantify each goal, create a roadmap to achieve it, and regularly monitor progress.',
+      answer: 'Goal-based planning means creating a customized financial strategy aligned with your specific life goals - whether buying a home, funding children education, planning retirement, or building wealth. We quantify each goal, create a roadmap to achieve it, and regularly monitor progress.',
     },
     {
       question: 'How often will we review my financial plan?',
@@ -55,8 +55,8 @@ export default function FAQsPage() {
       answer: 'We provide tax planning advice to optimize your tax liability through strategic investments and planning. However, for actual tax filing and legal interpretation, we recommend consulting a Chartered Accountant. We work collaboratively with CAs to ensure comprehensive financial management.',
     },
     {
-      question: 'How do I know if I'm saving enough for retirement?',
-      answer: 'Use our Retirement Calculator on the Tools page for a quick estimate, or book a consultation for a detailed retirement analysis. We'll assess your current savings, expected expenses, inflation, and investment returns to create a personalized retirement plan that ensures financial freedom in your golden years.',
+      question: 'How do I know if I am saving enough for retirement?',
+      answer: 'Use our Retirement Calculator on the Tools page for a quick estimate, or book a consultation for a detailed retirement analysis. We will assess your current savings, expected expenses, inflation, and investment returns to create a personalized retirement plan that ensures financial freedom in your golden years.',
     },
   ];
 
@@ -106,7 +106,7 @@ export default function FAQsPage() {
           <div className="mt-12 bg-gradient-to-br from-deepBlue to-emerald rounded-2xl p-8 text-white text-center">
             <h3 className="text-2xl font-bold mb-4 font-poppins">Still Have Questions?</h3>
             <p className="mb-6">
-              Can't find the answer you're looking for? Feel free to reach out to us directly.
+              Cannot find the answer you are looking for? Feel free to reach out to us directly.
             </p>
             <div className="flex flex-wrap gap-4 justify-center">
               <a
