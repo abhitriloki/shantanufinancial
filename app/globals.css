@@ -1,0 +1,37 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&family=Inter:wght@300;400;500;600&display=swap');
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --deep-blue: #0A66C2;
+  --emerald: #2BB673;
+  --slate: #0F172A;
+  --accent-gold: #D4AF37;
+}
+
+body {
+  font-family: 'Inter', sans-serif;
+  color: var(--slate);
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: 'Poppins', sans-serif;
+}
+
+.calculator-input {
+  @apply w-full px-4 py-3 border border-gray-300 rounded-lg focus:ring-2 focus:ring-deepBlue focus:border-transparent;
+}
+
+.calculator-result {
+  @apply bg-gradient-to-br from-deepBlue to-emerald text-white p-6 rounded-xl shadow-lg;
+}
+
+.btn-primary {
+  @apply bg-deepBlue hover:bg-opacity-90 text-white px-6 py-3 rounded-lg font-medium transition-all duration-300 hover:shadow-lg;
+}
+
+.btn-secondary {
+  @apply bg-emerald hover:bg-opacity-90 text-white px-6 py-3 rounded-lg font-medium transition-all duration-300 hover:shadow-lg;
+}
